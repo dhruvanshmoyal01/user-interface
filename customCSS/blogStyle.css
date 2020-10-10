@@ -20,3 +20,13 @@ body {
   margin: 100px;
   padding: 20px;
 }
+
+.container {
+  margin-top: 10px;
+  border: 4px #e0e0e0 solid;
+}
+
+#btn {
+  display: inline-block;
+  vertical-align: top;
+}
