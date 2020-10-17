@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
     <link rel="stylesheet" href="customCSS/postHome.css" />
-    <title>Post Home</title>
+    <title>Post Detail</title>
 </head>
 <body>
     <!----------------------------------------------- Navbar ----------------------------------------------------->
@@ -88,9 +88,22 @@
         </div>
     </nav>
     <!-- Page Content -->
-    <div class="container">
+    <div class="text-center mx-auto">
+        <!-- Avatar -->
+        <img src="images/avtar.jpg" class="rounded-circle" width="200" height="200">
+        <!-- Content -->
+        <div class="card-body">
+            <!-- Name -->
+            <h4 class="card-title font-weight-bold">Marry Andrews</h4>
+            <hr>
+            <!-- Quotation -->
+            <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci
+            </p>
+        </div>
+    </div>
+    <div class="container ">
         <div class="row">
-            <!-- Blog Entries Column -->
+            <!-- Post Entries Column -->
             <div class="col-md-8">
                 <div class="box">
                     <div class="d-flex flex-column comment-section">
@@ -100,6 +113,11 @@
                                 <div class="d-flex flex-column justify-content-start ml-2"><span
                                         class="d-block font-weight-bold name">Marry Andrews</span><span
                                         class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                            </div>
+                            <div class="mt-2 text-right"><a href="updatePost.html" button
+                                    class="btn btn-primary btn-sm shadow-none" type="button">Edit</button></a><a
+                                    href="deletePost.html" button class="btn btn-outline-danger btn-sm ml-1 shadow-none"
+                                    type="button">Delete</button></a>
                             </div>
                             <div class="mt-2">
                                 <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -173,10 +191,15 @@
                     <div class="d-flex flex-column comment-section">
                         <div class="bg-white p-2">
                             <div class="d-flex flex-row user-info"><img class="rounded-circle"
-                                    src="https://bootdey.com/img/Content/user_1.jpg" width="40">
+                                    src="https://i.imgur.com/RpzrMR2.jpg" width="40">
                                 <div class="d-flex flex-column justify-content-start ml-2"><span
-                                        class="d-block font-weight-bold name">Harry Potter</span><span
+                                        class="d-block font-weight-bold name">Marry Andrews</span><span
                                         class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                            </div>
+                            <div class="mt-2 text-right"><a href="updatePost.html" button
+                                    class="btn btn-primary btn-sm shadow-none" type="button">Edit</button></a><a
+                                    href="deletePost.html" button class="btn btn-outline-danger btn-sm ml-1 shadow-none"
+                                    type="button">Delete</button></a>
                             </div>
                             <div class="mt-2">
                                 <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -190,8 +213,8 @@
                         </div>
                         <div class="bg-white">
                             <div class="d-flex flex-row fs-12">
-                                <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span
-                                        class="ml-1">Like</span>
+                                <div class="like p-2 cursor"><i class="fa fa-thumbs-o-up"></i><span class="ml-1"><i
+                                            class="fas fa-heart"></i>Like</span>
                                 </div>
                                 <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span
                                         class="ml-1">Comment</span></div>
@@ -250,10 +273,15 @@
                     <div class="d-flex flex-column comment-section">
                         <div class="bg-white p-2">
                             <div class="d-flex flex-row user-info"><img class="rounded-circle"
-                                    src="https://bootdey.com/img/Content/user_1.jpg" width="40">
+                                    src="https://i.imgur.com/RpzrMR2.jpg" width="40">
                                 <div class="d-flex flex-column justify-content-start ml-2"><span
-                                        class="d-block font-weight-bold name">Harry Potter</span><span
+                                        class="d-block font-weight-bold name">Laurence Correil</span><span
                                         class="date text-black-50">Shared publicly - Jan 2020</span></div>
+                            </div>
+                            <div class="mt-2 text-right"><a href="updatePost.html" button
+                                    class="btn btn-primary btn-sm shadow-none" type="button">Edit</button></a><a
+                                    href="deletePost.html" button class="btn btn-outline-danger btn-sm ml-1 shadow-none"
+                                    type="button">Delete</button></a>
                             </div>
                             <div class="mt-2">
                                 <p class="comment-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -272,7 +300,7 @@
                                 </div>
                                 <div class="like p-2 cursor"><i class="fa fa-commenting-o"></i><span
                                         class="ml-1">Comment</span></div>
-                                <div class="like p-2 cursor"><i class="fa fa-share"></i><span class="ml-1">Share</span>
+                                <div class="like p-2 cursor"><span class="ml-1"><i class="fa fa-share"></i>Share</span>
                                 </div>
                             </div>
                         </div>
@@ -336,16 +364,39 @@
             </div>
             <!-- Sidebar Widgets Column -->
             <div class="col-md-4">
-                <div class="card my-4">
-                    <h5 class="card-header">Start a post</h5>
-                    <div class="card-body" style="text-align: center;">
-                        <a href="createPost.html" class="btn btn-primary btn-lg active" role="button"
-                            aria-pressed="true" style="width: 50%;">Create</a>
+                <!-- Widget -->
+                <h5 class="card-title font-weight-bold">Credentials & Highlights</h5>
+                <hr>
+                <p>General Manager at Sports Ecommerce</p>
+                <p>Lives in Atlanta, GA</p>
+                <p>27.2M content views</p>
+                <br />
+                <!-- Categories Widget -->
+                <div class="card my-4 text-center">
+                    <h5 class="card-header">Knows about</h5>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <a href="#">Web Design</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Freebies</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /.row -->
+    </div>
+    </div>
+    <!-- /.row -->
     </div>
     <!-- /.container -->
     <!-- Optional JavaScript -->
