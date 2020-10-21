@@ -1,0 +1,16 @@
+.container {
+  margin-top: 10px;
+  border: 4px #e0e0e0 solid;
+  background-color: white;
+  padding-block-end: 2%;
+  padding-block-start: 2%;
+}
+
+#btn {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body {
+  background-color: #e4f1f7;
+}
