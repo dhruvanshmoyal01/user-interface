@@ -1,0 +1,35 @@
+.header-container {
+  background: #eeeeee;
+}
+
+.page-header h1 {
+  margin-top: 10px;
+}
+.page-header {
+  height: 700px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../images/blog-writing.jpg");
+}
+.blog-header {
+  height: 600px;
+  margin-top: 0px;
+  background-size: cover;
+  background-image: url("../images/image1.jpg");
+}
+
+.border-class {
+  border: 4px #e0e0e0 solid;
+  margin: 100px;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 10px;
+  border: 4px #e0e0e0 solid;
+}
+
+#btn {
+  display: inline-block;
+  vertical-align: top;
+}
