@@ -18,81 +18,115 @@
     <title>Login Form</title>
 </head>
 
-<!----------------------------------------------- Navbar ----------------------------------------------------->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="https://www.goa.gov.in/">
-        <img src="../images/logo1.jpg" height="60px" width="60px">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="https://www.goa.gov.in/">
+        <img src="/images/logo1.jpg" height="60px" width="60px" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Log In</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link" href="/homePage.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/loginForm.html">Log In</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Career
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#">Job</a>
                     <a class="dropdown-item" href="#">Internship</a>
                     <a class="dropdown-item" href="#">Mentorship</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Events
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">All Events</a>
-                    <a class="dropdown-item" href="#">Alumni Event Calander</a>
-                    <a class="dropdown-item" href="#">Projects</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    About Us
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Vision & Mission</a>
-                    <a class="dropdown-item" href="#">Contact us</a>
-                </div>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    More
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Search Alumni</a>
-                    <a class="dropdown-item" href="#">Class Group</a>
-                    <a class="dropdown-item" href="#">Reunion Corner</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Photo Gallery</a>
-                    <a class="dropdown-item" href="#">Newsletter</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Donate Now</a>
-                </div>
-            </li>
+            </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="/blog_home.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/postHome.html">Post</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="/event_home.html"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/event_home.html">All Events</a>
+              <a class="dropdown-item" href="#">Alumni Event Calander</a>
+              <a class="dropdown-item" href="#">Projects</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/aboutus.html">Vision & Mission</a>
+              <a class="dropdown-item" href="/contact.html">Contact us</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              More
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Search Alumni</a>
+              <a class="dropdown-item" href="#">Class Group</a>
+              <a class="dropdown-item" href="#">Reunion Corner</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Photo Gallery</a>
+              <a class="dropdown-item" href="#">Newsletter</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Donate Now</a>
+            </div>
+          </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Log In</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Register</a>
-            </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/loginForm.html">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/registerForm.html">Register</a>
+          </li>
         </ul>
-    </div>
-</nav>
+      </div>
+    </nav>
 
 
 <!------------------------------------------------ header section -------------------------------------------------->
